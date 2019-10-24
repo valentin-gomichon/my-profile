@@ -1,0 +1,90 @@
+.container { 
+	width:700px;
+	margin:40px auto;
+}
+
+@media (max-width: 400px) {
+	.container {
+		max-width:200px;
+	}
+}
+
+
+body {
+	background-color: rgb(227,231,241);
+	font-family:Futura;
+	color: rgb(41,52,98);
+	font-size:20px;
+	text-align:center;
+	
+}
+
+h2 {
+	color: rgb(129,134,213);
+	font-family:Futura;
+	font-weight:lighter;
+	font-size:30px;
+}
+
+h1 {
+	color: rgb(73,76,162);
+	font-family:Futura;
+	font-weight:100;
+	font-size: 60px;
+	letter-spacing:10px;
+	text-transform: uppercase;
+}
+
+a  {
+	text-decoration: none;
+	font-weight: bold italic;
+	font-family:Futura;
+	color: rgb(41,52,98);}
+
+#logo {
+	border-radius:50%;
+	size:100px;
+	margin:40px auto;
+}
+
+.box-smaller { 
+	background-color:white;
+	border-radius:10px;
+	padding:30px;
+	margin:30px auto;
+	box-shadow:10px 10px 20px rgb(73,76,162, 0.5);
+	width:700px;
+}
+
+.button-purple { 
+	background-color: rgb(129,134,213);
+	padding:10px 10px;
+	border-radius:20px;
+	box-shadow:10px 10px 20px rgb(73,76,162, 0.5);
+ }
+
+.button-purple:hover {
+	color:black;
+}
+
+.list-horizontal {
+	list-style:none;
+	text-align:center;
+}
+
+.list-horizontal li {
+	display:inline;
+	padding: 5px;
+	background-color:rgb(129,134,213);
+	border-radius:10px;
+	box-shadow:10px 10px 20px rgb(73,76,162, 0.5);
+}
+
+.list-horizontal li :hover {
+	color:black;
+}
+
+#intro { 
+	margin-bottom:40px;
+}
+
